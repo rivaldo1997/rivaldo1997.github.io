@@ -1,8 +1,8 @@
 .main-section {
-    background-color: #FFF504;
+    background-color: #CEB02A;
     padding-top: 50px;
     padding-bottom: 100px;
-    border-bottom: 10px solid #CEB02A;
+    border-bottom: 10px solid #FFF504;
 }
 
 .main-section .main-title {
@@ -14,5 +14,9 @@
 }
 
 .main-section.-bdFirst {
-    border-color:#CEB02A;;
+    border-color: #FFF504;
+}
+
+.main-section.-bdBlack {
+    border-color: #000;
 }
