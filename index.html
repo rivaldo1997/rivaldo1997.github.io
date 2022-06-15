@@ -22,7 +22,7 @@
         <link rel="stylesheet" href="css/components/card-project.css">
         <link rel="stylesheet" href="css/components/wrapper-card.css">
         <link rel="stylesheet" href="css/components/main-description.css">
-        <link rel="stylesheet" href="css/components/formulario-content.css">
+        <link rel="stylesheet" href="css/components/container.css">
         <link rel="stylesheet" href="css/components/main-footer.css">
         
     </head>
@@ -162,16 +162,23 @@
 
         </section>
 
-        <section class="content">
-            <div class="contato">
-                <h2 class="main-title -second">Contatos</h2>
-            <form class="form" method="POST" action="./email.php">
-                <input class="field" name="name" placeholder="Nome">
-                <input class="field" name="email" placeholder="E-mail">
-                <textarea class="field-texto" name="message" placeholder="Mensagem"></textarea>
-                <input class="field-bottom" type="submit" value="Enviar">
-            </form>  
-            </div>
+        <section class="container">
+           <form id="contact" action="" method="POST">
+            <h2 class="main-title -second">Contatos</h2>
+            <fieldset>
+                <input placeholder="Nome" type="Text" tabindex="1" required autofocus>
+            </fieldset>
+            <fieldset>
+                <input placeholder="Email" type="Email" tabindex="2" required>
+            </fieldset>
+            <fieldset>
+                <textarea placeholder="Digite sua Mensagem" type="Email" tabindex="3" required></textarea>
+            </fieldset>
+            <fieldset>
+                <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Enviar</button>
+            </fieldset>
+        
+           </form>
         </section>
 
         <section class="main-footer">
