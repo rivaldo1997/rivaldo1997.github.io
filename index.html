@@ -22,9 +22,7 @@
         <link rel="stylesheet" href="css/components/card-project.css">
         <link rel="stylesheet" href="css/components/wrapper-card.css">
         <link rel="stylesheet" href="css/components/main-description.css">
-        <link rel="stylesheet" href="css/components/button-arrow.css">
-        <link rel="stylesheet" href="css/components/node-card.css">
-        <link rel="stylesheet" href="css/components/main-carousel.css">
+        <link rel="stylesheet" href="css/components/formulario-content.css">
         
     </head>
     <body>
@@ -149,7 +147,10 @@
         <section class="main-section -bgSecond -bdBlack">
             <h2 class="main-title -second">Sobre</h2>
 
-            
+                <div class="capa-fundo"> 
+                    <img src="img/capa-fundo.png" alt="Rivaldo Silva">
+                </div>
+
             <p class="main-description">
                 Hoje, estudando para ser um grande desenvolvedor FrontEnd, Rivaldo Silva é um rapaz
                 sonhador que deseja ganhar o mundo. Depois de muito tempo, finalmente encontrou o trabalho
@@ -158,52 +159,18 @@
                 foco e determinação, tenho certeza que conseguirá grandes feitos.
             </p>
 
-            <section class="main-carousel">
-                <button class="button-arrow -left"><span class="content">Avançar</span></button>
-                <figure class="node-card">
-                    <figcaption class="title">2012</figcaption>
-                    <div class="logo">
-                        <img src="img/logo-locaweb.png" alt="Logo da Locaweb">
-                    </div>
-                </figure>
+        </section>
 
-                <figure class="node-card -clean">
-                    <figcaption class="title">2014</figcaption>
-                    <div class="logo">
-                        <img src="img/logo-caelum.png" alt="Logo da Caelum">
-                    </div>
-                </figure>
-
-                <figure class="node-card -first">
-                    <figcaption class="title">2016</figcaption>
-                    <div class="logo">
-                        <img src="img/logo-getninjas.png" alt="Logo da GetNinjas">
-                    </div>
-                </figure>
-
-                <figure class="node-card -clean">
-                    <figcaption class="title">2017</figcaption>
-                    <div class="logo">
-                        <img src="img/logo-caelum.png" alt="Logo da Caelum">
-                    </div>
-                </figure>
-
-                <figure class="node-card">
-                    <figcaption class="title">2018</figcaption>
-                    <div class="logo">
-                        <img src="img/logo-impulso.png" alt="Logo da Impulso">
-                    </div>
-                </figure>
-
-                <figure class="node-card -first">
-                    <figcaption class="title">2019</figcaption>
-                    <div class="logo">
-                        <img src="img/logo-collabcode.png" alt="Logo da CollabCode">
-                    </div>
-                </figure>
-
-                <button class="button-arrow -right"><span class="content">Voltar</span></button>
-            </section>
+        <section class="content">
+            <div class="contato">
+                <h2 class="main-title -second">Contatos</h2>
+            <form class="form" method="POST" action="./email.php">
+                <input class="field" name="name" placeholder="Nome">
+                <input class="field" name="email" placeholder="E-mail">
+                <textarea class="field-texto" name="message" placeholder="Mensagem"></textarea>
+                <input class="field-bottom" type="submit" value="Enviar">
+            </form>  
+            </div>
         </section>
 
     </body>

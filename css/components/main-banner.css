@@ -25,3 +25,9 @@
     display: flex;
     justify-content: space-around;
 }
+
+.capa-fundo {
+    display: flex;
+    justify-content: center;
+    background-size: 100%;
+}
