@@ -21,3 +21,11 @@
 .skill-tec .title {
     margin-bottom: 16px;
 }
+
+@media screen and (max-width 600px) {
+    #nav #li {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }    
+}

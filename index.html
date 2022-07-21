@@ -24,6 +24,7 @@
         <link rel="stylesheet" href="css/components/main-description.css">
         <link rel="stylesheet" href="css/components/container.css">
         <link rel="stylesheet" href="css/components/main-footer.css">
+        <link rel="stylesheet" href="css/components/main-label.css">
         
     </head>
     <body>
@@ -162,39 +163,29 @@
 
         </section>
 
-        <section class="container">
-           <form id="contact" action="" method="POST">
-            <h2 class="main-title -second">Contatos</h2>
-            <fieldset>
-                <input placeholder="Nome" type="Text" tabindex="1" required autofocus>
-            </fieldset>
-            <fieldset>
-                <input placeholder="Email" type="Email" tabindex="2" required>
-            </fieldset>
-            <fieldset>
-                <textarea placeholder="Digite sua Mensagem" type="Email" tabindex="3" required></textarea>
-            </fieldset>
-            <fieldset>
-                <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Enviar</button>
-            </fieldset>
-        
-           </form>
-        </section>
+        <form>
+            <label class="main-label" for="name">Nome</label>
+            <input id="name" type="text">
 
-        <section class="main-footer">
-                <ul>
-                    <li class="grid-4">
-                        <a href="https://www.linkedin.com/in/rivaldo-da-silva-98ba99203/" target="_blank">
-                            <img src="img/linkedin1.png" alt="Logo Linkedin">
-                        </a>
-                        <a href="https://www.youtube.com/channel/UCu_-hXLzv1mPOTrkqWJ7Cew" target="_blank">
-                            <img src="img/youtube1.png" alt="Logo YouTube">
-                        </a>
-                        <a href="https://discord.com/channels/@me" target="_blank">
-                            <img src="img/discord1.png" alt="Logo Discord">
-                        </a>
-                    </li>
-                </ul>
+            <label class="main-label" for="email">Email</label>
+            <input id="email" type="email">
+
+            <label class="main-label" for="message">Mensagem</label>
+            <textarea id="message"></textarea>
+
+            <button type="submit">Enviar</button>
+         </form>
+
+        <footer class="main-footer">
+            <a class="action" href="https://www.linkedin.com/in/rivaldo-da-silva-98ba99203/" target="_blank">
+                <img src="img/linkedin1.png" alt="Logo Linkedin">
+            </a>
+            <a class="action" href="https://www.youtube.com/channel/UCu_-hXLzv1mPOTrkqWJ7Cew" target="_blank">
+                <img src="img/youtube1.png" alt="Logo YouTube">
+            </a>
+            <a class="action" href="https://discord.com/channels/@me" target="_blank">
+                <img src="img/discord1.png" alt="Logo Discord">
+            </a>
         </section>
 
     </body>
